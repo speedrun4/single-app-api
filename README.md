@@ -61,13 +61,11 @@ Esse repositório contém os arquivos do **back-end** do projeto Single-app, con
   - Gerando um token:
 
 **Authorization**
-![postman authorization](https://user-images.githubusercontent.com/37079133/103035868-fc6d9780-4546-11eb-93ac-abe4a427aac8.png)<br>
 
 **Headers**
-![postman headers](https://user-images.githubusercontent.com/37079133/103035871-fd9ec480-4546-11eb-8f1f-273ec059ad6b.png)<br>
 
 **Body**
-![postman body](https://user-images.githubusercontent.com/37079133/103035872-fd9ec480-4546-11eb-8ac0-8d3f215eddca.png)<br>
+
 
   - Usando o token gerado em uma requisição:
 
