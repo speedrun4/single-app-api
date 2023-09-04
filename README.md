@@ -69,9 +69,6 @@ Esse repositório contém os arquivos do **back-end** do projeto Single-app, con
 
   - Usando o token gerado em uma requisição:
 
-**Cadastro de uma pessoa**
-![people auth](https://user-images.githubusercontent.com/37079133/103035873-fe375b00-4546-11eb-9e57-67c50a0b03c8.png)<br><br>
-
 |  URL |  Método | Descrição |
 |----------|--------------|--------------|
 |`http://localhost:8080/single-app-api/oauth/token`                             | POST | Solicita Access Token |
