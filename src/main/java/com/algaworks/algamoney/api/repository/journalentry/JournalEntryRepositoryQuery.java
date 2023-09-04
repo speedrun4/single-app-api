@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.repository.journalentry;
+package com.algaworks.single-app.api.repository.journalentry;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -6,12 +6,12 @@ import java.util.List;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 
-import com.algaworks.algamoney.api.dto.JournalEntryCategoryStatistics;
-import com.algaworks.algamoney.api.dto.JournalEntryPerDayStatistics;
-import com.algaworks.algamoney.api.dto.JournalEntryPersonStatistics;
-import com.algaworks.algamoney.api.model.JournalEntry;
-import com.algaworks.algamoney.api.repository.filter.JournalEntryFilter;
-import com.algaworks.algamoney.api.repository.projection.JournalEntrySummary;
+import com.algaworks.single-app.api.dto.JournalEntryCategoryStatistics;
+import com.algaworks.single-app.api.dto.JournalEntryPerDayStatistics;
+import com.algaworks.single-app.api.dto.JournalEntryPersonStatistics;
+import com.algaworks.single-app.api.model.JournalEntry;
+import com.algaworks.single-app.api.repository.filter.JournalEntryFilter;
+import com.algaworks.single-app.api.repository.projection.JournalEntrySummary;
 
 public interface JournalEntryRepositoryQuery {
 	

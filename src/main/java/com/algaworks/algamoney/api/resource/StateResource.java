@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.resource;
+package com.algaworks.single-app.api.resource;
 
 import java.util.List;
 
@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.algaworks.algamoney.api.model.State;
-import com.algaworks.algamoney.api.repository.StateRepository;
+import com.algaworks.single-app.api.model.State;
+import com.algaworks.single-app.api.repository.StateRepository;
 
 @RestController
 @RequestMapping("/states")

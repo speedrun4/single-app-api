@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.mail;
+package com.algaworks.single-app.api.mail;
 
 import java.util.HashMap;
 import java.util.List;
@@ -16,8 +16,8 @@ import org.springframework.stereotype.Component;
 import org.thymeleaf.TemplateEngine;
 import org.thymeleaf.context.Context;
 
-import com.algaworks.algamoney.api.model.JournalEntry;
-import com.algaworks.algamoney.api.model.UserAuthorization;
+import com.algaworks.single-app.api.model.JournalEntry;
+import com.algaworks.single-app.api.model.UserAuthorization;
 
 @Component
 public class Mailer {

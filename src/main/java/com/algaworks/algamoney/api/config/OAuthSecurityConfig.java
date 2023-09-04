@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.config;
+package com.algaworks.single-app.api.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

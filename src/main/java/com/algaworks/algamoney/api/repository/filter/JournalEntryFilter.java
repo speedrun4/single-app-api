@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.repository.filter;
+package com.algaworks.single-app.api.repository.filter;
 
 import java.time.LocalDate;
 

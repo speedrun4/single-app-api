@@ -1,8 +1,8 @@
-package com.algaworks.algamoney.api.dto;
+package com.algaworks.single-app.api.dto;
 
 import java.math.BigDecimal;
 
-import com.algaworks.algamoney.api.model.Category;
+import com.algaworks.single-app.api.model.Category;
 
 
 public class JournalEntryCategoryStatistics {

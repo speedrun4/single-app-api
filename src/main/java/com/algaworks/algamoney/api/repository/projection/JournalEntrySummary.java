@@ -1,9 +1,9 @@
-package com.algaworks.algamoney.api.repository.projection;
+package com.algaworks.single-app.api.repository.projection;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-import com.algaworks.algamoney.api.model.JournalEntryType;
+import com.algaworks.single-app.api.model.JournalEntryType;
 
 public class JournalEntrySummary {
 	

@@ -1,11 +1,11 @@
-package com.algaworks.algamoney.api.security;
+package com.algaworks.single-app.api.security;
 
 import java.util.Collection;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.User;
 
-import com.algaworks.algamoney.api.model.UserAuthorization;
+import com.algaworks.single-app.api.model.UserAuthorization;
 
 public class SystemUser extends User {
 	

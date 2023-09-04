@@ -1,11 +1,11 @@
-package com.algaworks.algamoney.api.repository;
+package com.algaworks.single-app.api.repository;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.algaworks.algamoney.api.model.UserAuthorization;
+import com.algaworks.single-app.api.model.UserAuthorization;
 
 public interface UserAuthorizationRepository extends JpaRepository<UserAuthorization, Long> {
 	

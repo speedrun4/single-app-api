@@ -18,8 +18,8 @@ CREATE TABLE user_authorization (
 	FOREIGN KEY (id_authorization) REFERENCES authorization(id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
-INSERT INTO user (id, name, email, password) values (1, 'Administrador', 'admin@algamoney.com', '$2a$10$X607ZPhQ4EgGNaYKt3n4SONjIv9zc.VMWdEuhCuba7oLAL5IvcL5.');
-INSERT INTO user (id, name, email, password) values (2, 'Maria Silva', 'maria@algamoney.com', '$2a$10$Zc3w6HyuPOPXamaMhh.PQOXvDnEsadztbfi6/RyZWJDzimE8WQjaq');
+INSERT INTO user (id, name, email, password) values (1, 'Administrador', 'admin@single-app.com', '$2a$10$X607ZPhQ4EgGNaYKt3n4SONjIv9zc.VMWdEuhCuba7oLAL5IvcL5.');
+INSERT INTO user (id, name, email, password) values (2, 'Maria Silva', 'maria@single-app.com', '$2a$10$Zc3w6HyuPOPXamaMhh.PQOXvDnEsadztbfi6/RyZWJDzimE8WQjaq');
 
 INSERT INTO authorization (id, description) values (1, 'ROLE_REGISTER_CATEGORY');
 INSERT INTO authorization (id, description) values (2, 'ROLE_SEARCH_CATEGORY');

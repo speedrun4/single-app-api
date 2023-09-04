@@ -1,9 +1,9 @@
-package com.algaworks.algamoney.api.dto;
+package com.algaworks.single-app.api.dto;
 
 import java.math.BigDecimal;
 import java.time.LocalDate;
 
-import com.algaworks.algamoney.api.model.JournalEntryType;
+import com.algaworks.single-app.api.model.JournalEntryType;
 
 public class JournalEntryPerDayStatistics {
 

@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.resource;
+package com.algaworks.single-app.api.resource;
 
 import javax.servlet.http.HttpServletResponse;
 import javax.validation.Valid;
@@ -21,10 +21,10 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.algaworks.algamoney.api.event.CreatedResourceEvent;
-import com.algaworks.algamoney.api.model.Person;
-import com.algaworks.algamoney.api.repository.PersonRepository;
-import com.algaworks.algamoney.api.service.PersonService;
+import com.algaworks.single-app.api.event.CreatedResourceEvent;
+import com.algaworks.single-app.api.model.Person;
+import com.algaworks.single-app.api.repository.PersonRepository;
+import com.algaworks.single-app.api.service.PersonService;
 
 @RestController
 @RequestMapping("/people")

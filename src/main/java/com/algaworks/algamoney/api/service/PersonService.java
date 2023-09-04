@@ -1,12 +1,12 @@
-package com.algaworks.algamoney.api.service;
+package com.algaworks.single-app.api.service;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.dao.EmptyResultDataAccessException;
 import org.springframework.stereotype.Service;
 
-import com.algaworks.algamoney.api.model.Person;
-import com.algaworks.algamoney.api.repository.PersonRepository;
+import com.algaworks.single-app.api.model.Person;
+import com.algaworks.single-app.api.repository.PersonRepository;
 
 @Service
 public class PersonService {

@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.config.token;
+package com.algaworks.single-app.api.config.token;
 
 import java.util.HashMap;
 import java.util.Map;

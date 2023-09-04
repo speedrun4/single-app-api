@@ -2,14 +2,14 @@ version: '3.8'
 services:
   db:
     image: mariadb
-    container_name: algamoney_mariadb
+    container_name: single-app_mariadb
     environment:
         MYSQL_ROOT_PASSWORD: root
     ports:
     - "3306:3306"
     volumes:
-    - algamoney_data:/var/lib/mysql
+    - single-app_data:/var/lib/mysql
 
 volumes:
-  algamoney_data:
+  single-app_data:
 

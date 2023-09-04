@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.resource;
+package com.algaworks.single-app.api.resource;
 
 import java.time.LocalDate;
 import java.util.Arrays;
@@ -31,16 +31,16 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseStatus;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.algaworks.algamoney.api.dto.JournalEntryCategoryStatistics;
-import com.algaworks.algamoney.api.dto.JournalEntryPerDayStatistics;
-import com.algaworks.algamoney.api.event.CreatedResourceEvent;
-import com.algaworks.algamoney.api.exceptionhandler.AlgamoneyExceptionHandler.Error;
-import com.algaworks.algamoney.api.model.JournalEntry;
-import com.algaworks.algamoney.api.repository.JournalEntryRepository;
-import com.algaworks.algamoney.api.repository.filter.JournalEntryFilter;
-import com.algaworks.algamoney.api.repository.projection.JournalEntrySummary;
-import com.algaworks.algamoney.api.service.JournalEntryService;
-import com.algaworks.algamoney.api.service.exception.NonexistentOrInactivePersonException;
+import com.algaworks.single-app.api.dto.JournalEntryCategoryStatistics;
+import com.algaworks.single-app.api.dto.JournalEntryPerDayStatistics;
+import com.algaworks.single-app.api.event.CreatedResourceEvent;
+import com.algaworks.single-app.api.exceptionhandler.single-appExceptionHandler.Error;
+import com.algaworks.single-app.api.model.JournalEntry;
+import com.algaworks.single-app.api.repository.JournalEntryRepository;
+import com.algaworks.single-app.api.repository.filter.JournalEntryFilter;
+import com.algaworks.single-app.api.repository.projection.JournalEntrySummary;
+import com.algaworks.single-app.api.service.JournalEntryService;
+import com.algaworks.single-app.api.service.exception.NonexistentOrInactivePersonException;
 
 @RestController
 @RequestMapping("/journalentries")

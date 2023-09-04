@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.service;
+package com.algaworks.single-app.api.service;
 
 import java.io.InputStream;
 import java.sql.Date;
@@ -15,15 +15,15 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Scheduled;
 import org.springframework.stereotype.Service;
 
-import com.algaworks.algamoney.api.dto.JournalEntryPersonStatistics;
-import com.algaworks.algamoney.api.mail.Mailer;
-import com.algaworks.algamoney.api.model.JournalEntry;
-import com.algaworks.algamoney.api.model.Person;
-import com.algaworks.algamoney.api.model.UserAuthorization;
-import com.algaworks.algamoney.api.repository.JournalEntryRepository;
-import com.algaworks.algamoney.api.repository.PersonRepository;
-import com.algaworks.algamoney.api.repository.UserAuthorizationRepository;
-import com.algaworks.algamoney.api.service.exception.NonexistentOrInactivePersonException;
+import com.algaworks.single-app.api.dto.JournalEntryPersonStatistics;
+import com.algaworks.single-app.api.mail.Mailer;
+import com.algaworks.single-app.api.model.JournalEntry;
+import com.algaworks.single-app.api.model.Person;
+import com.algaworks.single-app.api.model.UserAuthorization;
+import com.algaworks.single-app.api.repository.JournalEntryRepository;
+import com.algaworks.single-app.api.repository.PersonRepository;
+import com.algaworks.single-app.api.repository.UserAuthorizationRepository;
+import com.algaworks.single-app.api.service.exception.NonexistentOrInactivePersonException;
 
 import net.sf.jasperreports.engine.JRException;
 import net.sf.jasperreports.engine.JasperExportManager;

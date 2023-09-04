@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.resource;
+package com.algaworks.single-app.api.resource;
 
 import java.util.List;
 
@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.algaworks.algamoney.api.model.City;
-import com.algaworks.algamoney.api.repository.CityRepository;
+import com.algaworks.single-app.api.model.City;
+import com.algaworks.single-app.api.repository.CityRepository;
 
 @RestController
 @RequestMapping("/cities")

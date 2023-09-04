@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.security;
+package com.algaworks.single-app.api.security;
 
 import java.util.Collection;
 import java.util.HashSet;
@@ -14,8 +14,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.algaworks.algamoney.api.model.UserAuthorization;
-import com.algaworks.algamoney.api.repository.UserAuthorizationRepository;
+import com.algaworks.single-app.api.model.UserAuthorization;
+import com.algaworks.single-app.api.repository.UserAuthorizationRepository;
 
 @Service
 public class AppUserDetailsService implements UserDetailsService {

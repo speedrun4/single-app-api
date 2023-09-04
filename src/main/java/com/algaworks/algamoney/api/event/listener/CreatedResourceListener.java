@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.event.listener;
+package com.algaworks.single-app.api.event.listener;
 
 import java.net.URI;
 
@@ -8,7 +8,7 @@ import org.springframework.context.ApplicationListener;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.algaworks.algamoney.api.event.CreatedResourceEvent;
+import com.algaworks.single-app.api.event.CreatedResourceEvent;
 
 @Component
 public class CreatedResourceListener implements ApplicationListener<CreatedResourceEvent>{

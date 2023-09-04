@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.event;
+package com.algaworks.single-app.api.event;
 
 import javax.servlet.http.HttpServletResponse;
 

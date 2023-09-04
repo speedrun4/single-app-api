@@ -8,8 +8,8 @@
 		<![CDATA[]]>
 	</queryString>
 	<field name="amount" class="java.math.BigDecimal"/>
-	<field name="entryType" class="com.algaworks.algamoney.api.model.JournalEntryType"/>
-	<field name="person" class="com.algaworks.algamoney.api.model.Person"/>
+	<field name="entryType" class="com.algaworks.single-app.api.model.JournalEntryType"/>
+	<field name="person" class="com.algaworks.single-app.api.model.Person"/>
 	<title>
 		<band height="60" splitType="Stretch">
 			<textField>

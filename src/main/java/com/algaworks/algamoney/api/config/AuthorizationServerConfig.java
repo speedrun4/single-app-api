@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.config;
+package com.algaworks.single-app.api.config;
 
 import java.util.Arrays;
 
@@ -17,7 +17,7 @@ import org.springframework.security.oauth2.provider.token.TokenStore;
 import org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter;
 import org.springframework.security.oauth2.provider.token.store.JwtTokenStore;
 
-import com.algaworks.algamoney.api.config.token.CustomTokenEnhancer;
+import com.algaworks.single-app.api.config.token.CustomTokenEnhancer;
 
 @Profile("oauth-security")
 @Configuration

@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.exceptionhandler;
+package com.algaworks.single-app.api.exceptionhandler;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -23,7 +23,7 @@ import org.springframework.web.context.request.WebRequest;
 import org.springframework.web.servlet.mvc.method.annotation.ResponseEntityExceptionHandler;
 
 @ControllerAdvice
-public class AlgamoneyExceptionHandler extends ResponseEntityExceptionHandler {
+public class single-appExceptionHandler extends ResponseEntityExceptionHandler {
 	
 	@Autowired
 	private MessageSource messageSource;

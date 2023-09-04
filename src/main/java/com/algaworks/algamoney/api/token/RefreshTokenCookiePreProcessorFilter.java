@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.token;
+package com.algaworks.single-app.api.token;
 
 import java.io.IOException;
 import java.util.Map;

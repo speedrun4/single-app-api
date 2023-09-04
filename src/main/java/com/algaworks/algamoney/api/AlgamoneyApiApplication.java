@@ -1,16 +1,16 @@
-package com.algaworks.algamoney.api;
+package com.algaworks.single-app.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 
-import com.algaworks.algamoney.api.config.property.AlgamoneyApiProperty;
+import com.algaworks.single-app.api.config.property.single-appApiProperty;
 
 @SpringBootApplication
-@EnableConfigurationProperties(AlgamoneyApiProperty.class)
-public class AlgamoneyApiApplication  {
+@EnableConfigurationProperties(single-appApiProperty.class)
+public class single-appApiApplication  {
 	
 	public static void main(String[] args) {
-		SpringApplication.run(AlgamoneyApiApplication.class, args);
+		SpringApplication.run(single-appApiApplication.class, args);
 	}
 }

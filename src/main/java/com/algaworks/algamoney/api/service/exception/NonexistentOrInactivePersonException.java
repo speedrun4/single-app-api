@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.service.exception;
+package com.algaworks.single-app.api.service.exception;
 
 public class NonexistentOrInactivePersonException extends RuntimeException {
 

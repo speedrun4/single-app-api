@@ -1,9 +1,9 @@
-package com.algaworks.algamoney.api.dto;
+package com.algaworks.single-app.api.dto;
 
 import java.math.BigDecimal;
 
-import com.algaworks.algamoney.api.model.JournalEntryType;
-import com.algaworks.algamoney.api.model.Person;
+import com.algaworks.single-app.api.model.JournalEntryType;
+import com.algaworks.single-app.api.model.Person;
 
 public class JournalEntryPersonStatistics {
 

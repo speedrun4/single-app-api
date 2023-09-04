@@ -1,4 +1,4 @@
-package com.algaworks.algamoney.api.resource;
+package com.algaworks.single-app.api.resource;
 
 import java.util.List;
 
@@ -17,9 +17,9 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.algaworks.algamoney.api.event.CreatedResourceEvent;
-import com.algaworks.algamoney.api.model.Category;
-import com.algaworks.algamoney.api.repository.CategoryRepository;
+import com.algaworks.single-app.api.event.CreatedResourceEvent;
+import com.algaworks.single-app.api.model.Category;
+import com.algaworks.single-app.api.repository.CategoryRepository;
 
 @RestController
 @RequestMapping("/categories")
