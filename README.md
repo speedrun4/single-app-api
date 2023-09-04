@@ -1,7 +1,7 @@
-# Algamoney-api<br>
-Esse repositório contém os arquivos do **back-end** do projeto Algamoney, construído e ensinado pela [AlgaWorks](https://www.algaworks.com/) no curso **Fullstack Angular e Spring**.<br>O Algamoney é um software para controle e acompanhamento financeiro de receitas e despesas.<br>
+# Single--api<br>
+Esse repositório contém os arquivos do **back-end** do projeto Single-app, construído e ensinado pela Francisco Moura **Fullstack Angular e Spring**.<br>O Single-app é um software para controle e acompanhamento financeiro de receitas e despesas.<br>
 
-[**Veja também o repositório com a API do front-end.**](https://github.com/israelferreira/algamoney-ui)
+[**Veja também o repositório com a API do front-end.**](https://github.com/speesrun4/single-app-)
 
 <br>Ele foi desenvolvido com as seguintes tecnologias:
 
@@ -120,5 +120,4 @@ O projeto foi construído com a IDE Eclipse. Para executá-lo:
 11.  Para testar os recursos das URLs acima, use alguma ferramenta de testes de API, como o **Postman**; ou execute o cliente do front-end.
 ---
 ### Autor
-Feito por Israel Ferreira. 👋🏽 Entre em contato!
-[![Email Badge](https://img.shields.io/badge/-israelferreira5@outlook.com-c14438?style=for-the-badge&color=blue&link=mailto:israelferreira5@outlook.com)](mailto:israelferreira5@outlook.com)
+Feito por Francisco Moura. 👋🏽 Entre em contato! 11 981912734 mourajuniorf@gmail.com
