@@ -6,7 +6,7 @@ Esse repositório contém os arquivos do **back-end** do projeto Single-app, con
 <br>Ele foi desenvolvido com as seguintes tecnologias:
 
  - Back-end: **API REST** com o framework **Spring Boot** 2.5 no **Java** 16
- - Front-end: Single-Page Application (SPA) com **Angular** 10
+ - Front-end: Single-Page Application (SPA) com **Angular** 14
  - Biblioteca de componentes **PrimeNG** na interface de usuário
  - Autenticação e autorização de usuário com **OAuth 2** e **JWT** (JSON Web Token)
  - Banco de dados **MariaDB** 10+
