@@ -14,7 +14,7 @@ Esse repositório contém os arquivos do **back-end** do projeto Single-app, con
  - Node.js e NPM (Node Package Manager) para controle de dependências e building do front-end.
  
  ### Funcionalidades do software
--  Categorias de lançamento
+-  Categorias de Beneficiario
       - Buscar todas as categorias cadastradas
       -  Buscar uma categoria pelo código
       -  Criar uma nova categoria
@@ -28,7 +28,7 @@ Esse repositório contém os arquivos do **back-end** do projeto Single-app, con
 	    -   Remover uma pessoa usando o código
 	    -   Atualizar os dados de uma pessoa
 	    
- -   Lançamentos financeiros
+ -   Lançamentos Documentos
     
 	    -  Buscar lançamentos
 	    -  Buscar lançamentos pela descrição e data de vencimento
