@@ -1,8 +1,6 @@
 # Single-api<br>
 Esse repositório contém os arquivos do **back-end** do projeto Single-app, construído e ensinado pela Francisco Moura **Fullstack Angular e Spring**.<br>O Single-app é um software para controle e acompanhamento financeiro de receitas e despesas.<br>
 
-[**Veja também o repositório com a API do front-end.**](https://github.com/speedrun4/single-app-)
-
 <br>Ele foi desenvolvido com as seguintes tecnologias:
 
  - Back-end: **API REST** com o framework **Spring Boot** 2.5 no **Java** 16
